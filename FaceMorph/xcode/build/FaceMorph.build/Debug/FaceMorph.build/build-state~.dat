@@ -1,0 +1,933 @@
+TFaceMorph
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Info.plist" Info.plist
+cCpResource ../resources/CinderApp.icns ./build/Debug/FaceMorph.app/Contents/Resources/CinderApp.icns
+cCpResource ../blocks/ciFaceTracker/README.md ./build/Debug/FaceMorph.app/Contents/Resources/README.md
+cCpResource ../blocks/FaceTracker/bin/.gitignore ./build/Debug/FaceMorph.app/Contents/Resources/.gitignore
+cCpResource ../blocks/FaceTracker/license.md ./build/Debug/FaceMorph.app/Contents/Resources/license.md
+cCpResource ../blocks/FaceTracker/model/face.con ./build/Debug/FaceMorph.app/Contents/Resources/face.con
+cCpResource ../blocks/FaceTracker/model/face.tracker ./build/Debug/FaceMorph.app/Contents/Resources/face.tracker
+cCpResource ../blocks/FaceTracker/model/face.tri ./build/Debug/FaceMorph.app/Contents/Resources/face.tri
+cCpResource ../blocks/FaceTracker/model/face2.tracker ./build/Debug/FaceMorph.app/Contents/Resources/face2.tracker
+cCpResource ../blocks/FaceTracker/readme.md ./build/Debug/FaceMorph.app/Contents/Resources/readme.md
+cProcessPCH++ /var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch.pth FaceMorph_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/FaceMorphApp.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../src/FaceMorphApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscBundle.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscBundle.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscSender.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscSender.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscListener.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscListener.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscMessage.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscMessage.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/IpEndpointName.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/IpEndpointName.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscOutboundPacketStream.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscOutboundPacketStream.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscPrintReceivedElements.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscPrintReceivedElements.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscReceivedElements.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscReceivedElements.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscTypes.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscTypes.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/NetworkingUtils.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/posix/NetworkingUtils.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/UdpSocket.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/posix/UdpSocket.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/ciFaceTracker.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ciFaceTracker.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/Expression.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/Expression.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/ExpressionClassifier.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ExpressionClassifier.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000503F1B7700000000000000AA
+t1346313079
+s170
+
+N/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c00000000504A958800000000000024F0
+t1347065224
+s9456
+
+N/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000504A958E0000000000024D90
+t1347065230
+s150928
+
+N/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c00000000504A958E00000000000060B4
+t1347065230
+s24756
+
+N/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c00000000504A959100000000000001E5
+t1347065233
+s485
+
+N/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c00000000504A9592000000000000E920
+t1347065234
+s59680
+
+N/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/QuickTime.framework/QuickTime
+c00000000504A95B90000000000061248
+t1347065273
+s397896
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscBundle.cpp
+c000000005179E4F500000000000007E1
+t1366942965
+s2017
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscListener.cpp
+c000000005179E4F500000000000016B9
+t1366942965
+s5817
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscMessage.cpp
+c000000005179E4F500000000000010AD
+t1366942965
+s4269
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscSender.cpp
+c000000005179E4F500000000000010FE
+t1366942965
+s4350
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/IpEndpointName.cpp
+c000000005179E4F500000000000009FC
+t1366942965
+s2556
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/posix/NetworkingUtils.cpp
+c000000005179E4F500000000000007B8
+t1366942965
+s1976
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/posix/UdpSocket.cpp
+c000000005179E4F50000000000003DAD
+t1366942965
+s15789
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscOutboundPacketStream.cpp
+c000000005179E4F50000000000003BF2
+t1366942965
+s15346
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscPrintReceivedElements.cpp
+c000000005179E4F50000000000001C09
+t1366942965
+s7177
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscReceivedElements.cpp
+c000000005179E4F50000000000004816
+t1366942965
+s18454
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscTypes.cpp
+c000000005179E4F50000000000000669
+t1366942965
+s1641
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/.gitignore
+c0000000051D091320000000000000007
+t1372623154
+s7
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/bin/.gitignore
+c0000000051D091320000000000000001
+t1372623154
+s1
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/license.md
+c0000000051D0913200000000000008B7
+t1372623154
+s2231
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/model/face.con
+c0000000051D091320000000000000172
+t1372623154
+s370
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/model/face.tracker
+c0000000051D09132000000000009E40A
+t1372623154
+s648202
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/model/face.tri
+c0000000051D091320000000000000323
+t1372623154
+s803
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/model/face2.tracker
+c0000000051D0913200000000000B9A8C
+t1372623154
+s760460
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/readme.md
+c0000000051D091320000000000000928
+t1372623154
+s2344
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/exe/face_tracker.cc
+c0000000051D091320000000000002421
+t1372623154
+s9249
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/CLM.cc
+c0000000051D0913200000000000035F0
+t1372623154
+s13808
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/FCheck.cc
+c0000000051D091320000000000001AB5
+t1372623154
+s6837
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/FDet.cc
+c0000000051D091320000000000002506
+t1372623154
+s9478
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/IO.cc
+c0000000051D0913200000000000015D4
+t1372623154
+s5588
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/PAW.cc
+c0000000051D0913200000000000027DB
+t1372623154
+s10203
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/PDM.cc
+c0000000051D091320000000000004392
+t1372623154
+s17298
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/Patch.cc
+c0000000051D091320000000000002C0A
+t1372623154
+s11274
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/Tracker.cc
+c0000000051D091320000000000002273
+t1372623154
+s8819
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/Expression.cpp
+c0000000051D090060000000000000437
+t1372622854
+s1079
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ExpressionClassifier.cpp
+c0000000051D090060000000000000E6A
+t1372622854
+s3690
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/README.md
+c0000000051D0900600000000000002D9
+t1372622854
+s729
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ciFaceTracker.cpp
+c0000000051D090060000000000002663
+t1372622854
+s9827
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../resources/CinderApp.icns
+c0000000051FEE5730000000000070375
+t1375659379
+s459637
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../src/FaceMorphApp.cpp
+c0000000051FEE5730000000000000212
+t1375659379
+s530
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Info.plist
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/MacOS/FaceMorph
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/PkgInfo
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources/.gitignore
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources/README.md
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources/face.con
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources/face.tracker
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources/face.tri
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources/face2.tracker
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources/license.md
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources/readme.md
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/CLM.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/Expression.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/ExpressionClassifier.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/FCheck.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/FDet.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/FaceMorph.LinkFileList
+c0000000051FEE7B20000000000000E03
+t1375659954
+s3587
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/FaceMorphApp.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/IO.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/IpEndpointName.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/NetworkingUtils.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscBundle.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscListener.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscMessage.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscOutboundPacketStream.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscPrintReceivedElements.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscReceivedElements.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscSender.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscTypes.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/PAW.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/PDM.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/Patch.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/Tracker.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/UdpSocket.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/ciFaceTracker.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/face_tracker.o
+t2
+s0
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/FaceMorph_Prefix.pch
+c0000000051FEE573000000000000012D
+t1375659379
+s301
+i<Cocoa/Cocoa.h>
+i"cinder/Cinder.h"
+i"cinder/app/AppBasic.h"
+i"cinder/gl/gl.h"
+i"cinder/CinderMath.h"
+i"cinder/Matrix.h"
+i"cinder/Vector.h"
+i"cinder/Quaternion.h"
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/ciFaceTracker/Expression.cpp
+c0000000051D090060000000000000437
+t1372622854
+s1079
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/ciFaceTracker/ExpressionClassifier.cpp
+c0000000051D090060000000000000E6A
+t1372622854
+s3690
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/ciFaceTracker/README.md
+c0000000051D0900600000000000002D9
+t1372622854
+s729
+
+N/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/ciFaceTracker/ciFaceTracker.cpp
+c0000000051D090060000000000002663
+t1372622854
+s9827
+
+N/Applications/cinder 0.8.5/include/cinder/Cinder.h
+c000000005179E4F60000000000000CEB
+t1366942966
+s3307
+
+N/Applications/cinder 0.8.5/include/cinder/CinderMath.h
+c000000005179E4F60000000000001F9E
+t1366942966
+s8094
+
+N/Applications/cinder 0.8.5/include/cinder/Matrix.h
+c000000005179E4F60000000000000EDD
+t1366942966
+s3805
+
+N/Applications/cinder 0.8.5/include/cinder/Quaternion.h
+c000000005179E4F60000000000005499
+t1366942966
+s21657
+
+N/Applications/cinder 0.8.5/include/cinder/Vector.h
+c000000005179E4F6000000000000AD7C
+t1366942966
+s44412
+
+N/Applications/cinder 0.8.5/include/cinder/app/AppBasic.h
+c000000005179E4F60000000000002262
+t1366942966
+s8802
+
+N/Applications/cinder 0.8.5/include/cinder/gl/gl.h
+c000000005179E4F60000000000006469
+t1366942966
+s25705
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000505F10760000000000006560
+t1348407414
+s25952
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000519F7CC1000000000007CED0
+t1369406657
+s511696
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c00000000519F7D0B000000000002D360
+t1369406731
+s185184
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c00000000519F7D2700000000004B9FB0
+t1369406759
+s4956080
+
+N/var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c0000000051FEE5730000000000000462
+t1375659379
+s1122
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscBundle.cpp"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscListener.cpp"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscMessage.cpp"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscSender.cpp"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/IpEndpointName.cpp"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/posix/NetworkingUtils.cpp"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/posix/UdpSocket.cpp"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscOutboundPacketStream.cpp"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscPrintReceivedElements.cpp"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscReceivedElements.cpp"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscTypes.cpp"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/exe/face_tracker.cc"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/CLM.cc"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/FCheck.cc"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/FDet.cc"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/IO.cc"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/PAW.cc"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/PDM.cc"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/Patch.cc"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/Tracker.cc"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/Expression.cpp"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ExpressionClassifier.cpp"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ciFaceTracker.cpp"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../src/FaceMorphApp.cpp"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/ciFaceTracker/Expression.cpp"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/ciFaceTracker/ExpressionClassifier.cpp"
+r0
+
+CBuild AST from "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/ciFaceTracker/ciFaceTracker.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese2ea1c321fafb741^82c787321fafb741^---0#1#0#--18"Check dependencies36"3F41E48E-44B1-4D25-AE90-5F6A7030CDF5-
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/CLM.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/CLM.cc" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/Expression.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/Expression.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s397352778.218793
+e397352780.145179
+r1
+xCompileC
+x./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/Expression.o
+x/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/Expression.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/Expression.cppb01d384a1fafb741^594d4f4c1fafb741^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/Expression.cpp0000000000000000^3335"CompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/Expression.o ../blocks/ciFaceTracker/Expression.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    setenv LANG en_US.US-ASCII    "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-generated-files.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-own-target-headers.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-all-target-headers.hmap" -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-project-headers.hmap" -iquote../../../../../include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -iquote../../../../../blocks/OSC/src -iquote../../../../../blocks/QuickTime/include "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug/include" -I../../../../../boost "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources/i386" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources" "-F/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug" -include /var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch -MMD -MT dependencies -MF "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/Expression.d" --serialize-diagnostics "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/Expression.dia" -c "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/Expression.cpp" -o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/Expression.o"36"2B57847A-F434-4FAA-AEF7-18593C404B30-
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/Expression.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/ciFaceTracker/Expression.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/ExpressionClassifier.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ExpressionClassifier.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s397352779.536312
+e397352781.356497
+r0
+xCompileC
+x./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/ExpressionClassifier.o
+x/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ExpressionClassifier.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ExpressionClassifier.cpp:1:
+oIn file included from /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ExpressionClassifier.h:10:
+oIn file included from /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ciFaceTracker.h:28:
+o/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/include/FaceTracker/Tracker.h:42:10: fatal error: 'FaceTracker/CLM.h' file not found
+o#include <FaceTracker/CLM.h>
+o         ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ExpressionClassifier.cppb873894b1fafb741^fa475b4d1fafb741^-659"In file included from /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ExpressionClassifier.cpp:1:In file included from /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ExpressionClassifier.h:10:In file included from /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ciFaceTracker.h:28:/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/include/FaceTracker/Tracker.h:42:10: fatal error: 'FaceTracker/CLM.h' file not found#include <FaceTracker/CLM.h>         ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ExpressionClassifier.cpp0000000000000000^3395"CompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/ExpressionClassifier.o ../blocks/ciFaceTracker/ExpressionClassifier.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    setenv LANG en_US.US-ASCII    "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-generated-files.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-own-target-headers.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-all-target-headers.hmap" -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-project-headers.hmap" -iquote../../../../../include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -iquote../../../../../blocks/OSC/src -iquote../../../../../blocks/QuickTime/include "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug/include" -I../../../../../boost "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources/i386" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources" "-F/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug" -include /var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch -MMD -MT dependencies -MF "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/ExpressionClassifier.d" --serialize-diagnostics "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/ExpressionClassifier.dia" -c "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ExpressionClassifier.cpp" -o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/ExpressionClassifier.o"36"1E5AFDF5-28A1-40D1-A2A2-A81421362EC1-
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/ExpressionClassifier.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/ciFaceTracker/ExpressionClassifier.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/FCheck.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/FCheck.cc" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/FDet.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/FDet.cc" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/FaceMorphApp.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../src/FaceMorphApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s397352771.161304
+e397352775.573846
+r1
+xCompileC
+x./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/FaceMorphApp.o
+x/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../src/FaceMorphApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../src/FaceMorphApp.cpp977329431fafb741^85ea92471fafb741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/../src/FaceMorphApp.cpp0000000000000000^3313"CompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/FaceMorphApp.o ../src/FaceMorphApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    setenv LANG en_US.US-ASCII    "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-generated-files.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-own-target-headers.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-all-target-headers.hmap" -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-project-headers.hmap" -iquote../../../../../include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -iquote../../../../../blocks/OSC/src -iquote../../../../../blocks/QuickTime/include "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug/include" -I../../../../../boost "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources/i386" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources" "-F/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug" -include /var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch -MMD -MT dependencies -MF "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/FaceMorphApp.d" --serialize-diagnostics "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/FaceMorphApp.dia" -c "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../src/FaceMorphApp.cpp" -o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/FaceMorphApp.o"36"5300743D-0A5A-43BF-A66E-9F899679526C-
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/IO.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/IO.cc" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/IpEndpointName.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/IpEndpointName.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s397352771.162027
+e397352775.389285
+r1
+xCompileC
+x./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/IpEndpointName.o
+x/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/IpEndpointName.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/IpEndpointName.cppc3b629431fafb741^eeb263471fafb741^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/IpEndpointName.cpp0000000000000000^3377"CompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/IpEndpointName.o ../../../../../blocks/OSC/src/ip/IpEndpointName.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    setenv LANG en_US.US-ASCII    "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-generated-files.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-own-target-headers.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-all-target-headers.hmap" -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-project-headers.hmap" -iquote../../../../../include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -iquote../../../../../blocks/OSC/src -iquote../../../../../blocks/QuickTime/include "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug/include" -I../../../../../boost "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources/i386" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources" "-F/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug" -include /var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch -MMD -MT dependencies -MF "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/IpEndpointName.d" --serialize-diagnostics "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/IpEndpointName.dia" -c "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/IpEndpointName.cpp" -o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/IpEndpointName.o"36"2F5725B2-8041-4CD0-82B3-13FEDE7B1DEC-
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/NetworkingUtils.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/posix/NetworkingUtils.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s397352776.298664
+e397352777.545913
+r1
+xCompileC
+x./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/NetworkingUtils.o
+x/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/posix/NetworkingUtils.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/posix/NetworkingUtils.cppf38d4c481fafb741^c2c08b491fafb741^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/posix/NetworkingUtils.cpp0000000000000000^3395"CompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/NetworkingUtils.o ../../../../../blocks/OSC/src/ip/posix/NetworkingUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    setenv LANG en_US.US-ASCII    "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-generated-files.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-own-target-headers.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-all-target-headers.hmap" -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-project-headers.hmap" -iquote../../../../../include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -iquote../../../../../blocks/OSC/src -iquote../../../../../blocks/QuickTime/include "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug/include" -I../../../../../boost "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources/i386" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources" "-F/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug" -include /var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch -MMD -MT dependencies -MF "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/NetworkingUtils.d" --serialize-diagnostics "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/NetworkingUtils.dia" -c "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/posix/NetworkingUtils.cpp" -o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/NetworkingUtils.o"36"16D72678-3E13-44A1-B45D-C3522F067DE4-
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscBundle.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscBundle.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s397352771.161828
+e397352775.393806
+r1
+xCompileC
+x./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscBundle.o
+x/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscBundle.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compile /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscBundle.cppdaa929431fafb741^c0cf64471fafb741^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscBundle.cpp0000000000000000^3341"CompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscBundle.o ../../../../../blocks/OSC/src/OscBundle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    setenv LANG en_US.US-ASCII    "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-generated-files.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-own-target-headers.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-all-target-headers.hmap" -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-project-headers.hmap" -iquote../../../../../include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -iquote../../../../../blocks/OSC/src -iquote../../../../../blocks/QuickTime/include "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug/include" -I../../../../../boost "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources/i386" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources" "-F/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug" -include /var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch -MMD -MT dependencies -MF "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscBundle.d" --serialize-diagnostics "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscBundle.dia" -c "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscBundle.cpp" -o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscBundle.o"36"94AC232E-C56E-4926-A6E5-B14D77F8CA4F-
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscListener.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscListener.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s397352771.161846
+e397352778.217505
+r1
+xCompileC
+x./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscListener.o
+x/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscListener.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscListener.cpp79ac29431fafb741^64af374a1fafb741^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscListener.cpp0000000000000000^3353"CompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscListener.o ../../../../../blocks/OSC/src/OscListener.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    setenv LANG en_US.US-ASCII    "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-generated-files.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-own-target-headers.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-all-target-headers.hmap" -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-project-headers.hmap" -iquote../../../../../include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -iquote../../../../../blocks/OSC/src -iquote../../../../../blocks/QuickTime/include "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug/include" -I../../../../../boost "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources/i386" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources" "-F/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug" -include /var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch -MMD -MT dependencies -MF "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscListener.d" --serialize-diagnostics "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscListener.dia" -c "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscListener.cpp" -o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscListener.o"36"202E9198-FD15-45BD-9B31-6A672FDC6FAC-
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscMessage.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscMessage.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s397352771.161860
+e397352775.392530
+r1
+xCompileC
+x./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscMessage.o
+x/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscMessage.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscMessage.cppd5ae29431fafb741^957c64471fafb741^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscMessage.cpp0000000000000000^3347"CompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscMessage.o ../../../../../blocks/OSC/src/OscMessage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    setenv LANG en_US.US-ASCII    "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-generated-files.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-own-target-headers.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-all-target-headers.hmap" -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-project-headers.hmap" -iquote../../../../../include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -iquote../../../../../blocks/OSC/src -iquote../../../../../blocks/QuickTime/include "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug/include" -I../../../../../boost "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources/i386" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources" "-F/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug" -include /var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch -MMD -MT dependencies -MF "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscMessage.d" --serialize-diagnostics "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscMessage.dia" -c "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscMessage.cpp" -o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscMessage.o"36"613C528E-95D0-4AF9-9489-75AB5E6B2931-
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscOutboundPacketStream.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscOutboundPacketStream.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s397352771.162074
+e397352775.394077
+r1
+xCompileC
+x./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscOutboundPacketStream.o
+x/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscOutboundPacketStream.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Compile /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscOutboundPacketStream.cpp78b829431fafb741^2fe164471fafb741^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscOutboundPacketStream.cpp0000000000000000^3433"CompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscOutboundPacketStream.o ../../../../../blocks/OSC/src/osc/OscOutboundPacketStream.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    setenv LANG en_US.US-ASCII    "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-generated-files.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-own-target-headers.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-all-target-headers.hmap" -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-project-headers.hmap" -iquote../../../../../include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -iquote../../../../../blocks/OSC/src -iquote../../../../../blocks/QuickTime/include "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug/include" -I../../../../../boost "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources/i386" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources" "-F/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug" -include /var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch -MMD -MT dependencies -MF "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscOutboundPacketStream.d" --serialize-diagnostics "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscOutboundPacketStream.dia" -c "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscOutboundPacketStream.cpp" -o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscOutboundPacketStream.o"36"62FDB0B2-F61B-44A5-BAF8-334CC237A80F-
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscPrintReceivedElements.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscPrintReceivedElements.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s397352771.162468
+e397352775.390468
+r1
+xCompileC
+x./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscPrintReceivedElements.o
+x/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscPrintReceivedElements.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Compile /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscPrintReceivedElements.cpp00c829431fafb741^d8f563471fafb741^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscPrintReceivedElements.cpp0000000000000000^3439"CompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscPrintReceivedElements.o ../../../../../blocks/OSC/src/osc/OscPrintReceivedElements.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    setenv LANG en_US.US-ASCII    "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-generated-files.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-own-target-headers.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-all-target-headers.hmap" -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-project-headers.hmap" -iquote../../../../../include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -iquote../../../../../blocks/OSC/src -iquote../../../../../blocks/QuickTime/include "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug/include" -I../../../../../boost "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources/i386" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources" "-F/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug" -include /var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch -MMD -MT dependencies -MF "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscPrintReceivedElements.d" --serialize-diagnostics "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscPrintReceivedElements.dia" -c "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscPrintReceivedElements.cpp" -o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscPrintReceivedElements.o"36"BB3F8091-D43A-4F69-996F-163A37F7DF43-
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscReceivedElements.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscReceivedElements.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s397352775.395111
+e397352776.297269
+r1
+xCompileC
+x./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscReceivedElements.o
+x/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscReceivedElements.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compile /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscReceivedElements.cpp964165471fafb741^151a4c481fafb741^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscReceivedElements.cpp0000000000000000^3409"CompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscReceivedElements.o ../../../../../blocks/OSC/src/osc/OscReceivedElements.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    setenv LANG en_US.US-ASCII    "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-generated-files.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-own-target-headers.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-all-target-headers.hmap" -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-project-headers.hmap" -iquote../../../../../include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -iquote../../../../../blocks/OSC/src -iquote../../../../../blocks/QuickTime/include "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug/include" -I../../../../../boost "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources/i386" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources" "-F/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug" -include /var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch -MMD -MT dependencies -MF "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscReceivedElements.d" --serialize-diagnostics "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscReceivedElements.dia" -c "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscReceivedElements.cpp" -o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscReceivedElements.o"36"07CA7697-0158-40E0-8620-A20133CA8BC0-
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscSender.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscSender.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s397352771.161855
+e397352775.392834
+r1
+xCompileC
+x./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscSender.o
+x/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscSender.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compile /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscSender.cpp7daf29431fafb741^e69064471fafb741^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscSender.cpp0000000000000000^3341"CompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscSender.o ../../../../../blocks/OSC/src/OscSender.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    setenv LANG en_US.US-ASCII    "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-generated-files.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-own-target-headers.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-all-target-headers.hmap" -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-project-headers.hmap" -iquote../../../../../include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -iquote../../../../../blocks/OSC/src -iquote../../../../../blocks/QuickTime/include "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug/include" -I../../../../../boost "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources/i386" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources" "-F/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug" -include /var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch -MMD -MT dependencies -MF "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscSender.d" --serialize-diagnostics "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscSender.dia" -c "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/OscSender.cpp" -o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscSender.o"36"C3E4E5A4-383D-490A-89C0-4766DF15496A-
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscTypes.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscTypes.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s397352775.395116
+e397352776.279306
+r1
+xCompileC
+x./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscTypes.o
+x/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscTypes.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscTypes.cppb74165471fafb741^bb8047481fafb741^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscTypes.cpp0000000000000000^3343"CompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscTypes.o ../../../../../blocks/OSC/src/osc/OscTypes.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    setenv LANG en_US.US-ASCII    "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-generated-files.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-own-target-headers.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-all-target-headers.hmap" -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-project-headers.hmap" -iquote../../../../../include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -iquote../../../../../blocks/OSC/src -iquote../../../../../blocks/QuickTime/include "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug/include" -I../../../../../boost "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources/i386" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources" "-F/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug" -include /var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch -MMD -MT dependencies -MF "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscTypes.d" --serialize-diagnostics "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscTypes.dia" -c "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/osc/OscTypes.cpp" -o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/OscTypes.o"36"64B7BB75-AA41-4280-962A-01FB21A6A4E8-
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/PAW.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/PAW.cc" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/PDM.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/PDM.cc" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/Patch.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/Patch.cc" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/Tracker.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/lib/Tracker.cc" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/UdpSocket.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/posix/UdpSocket.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s397352777.547224
+e397352779.534960
+r1
+xCompileC
+x./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/UdpSocket.o
+x/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/posix/UdpSocket.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compile /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/posix/UdpSocket.cppa1308c491fafb741^38bb894b1fafb741^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/posix/UdpSocket.cpp0000000000000000^3359"CompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/UdpSocket.o ../../../../../blocks/OSC/src/ip/posix/UdpSocket.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    setenv LANG en_US.US-ASCII    "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-generated-files.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-own-target-headers.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-all-target-headers.hmap" -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-project-headers.hmap" -iquote../../../../../include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -iquote../../../../../blocks/OSC/src -iquote../../../../../blocks/QuickTime/include "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug/include" -I../../../../../boost "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources/i386" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources" "-F/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug" -include /var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch -MMD -MT dependencies -MF "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/UdpSocket.d" --serialize-diagnostics "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/UdpSocket.dia" -c "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../../../../../blocks/OSC/src/ip/posix/UdpSocket.cpp" -o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/UdpSocket.o"36"6100AEEA-413E-436C-AD8D-CF315A775BBC-
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/ciFaceTracker.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ciFaceTracker.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s397352777.547420
+e397352779.842565
+r0
+xCompileC
+x./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/ciFaceTracker.o
+x/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ciFaceTracker.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ciFaceTracker.cpp:1:
+oIn file included from /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ciFaceTracker.h:28:
+o/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/include/FaceTracker/Tracker.h:42:10: fatal error: 'FaceTracker/CLM.h' file not found
+o#include <FaceTracker/CLM.h>
+o         ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ciFaceTracker.cpp4b3c8c491fafb741^315dd84b1fafb741^-509"In file included from /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ciFaceTracker.cpp:1:In file included from /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ciFaceTracker.h:28:/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/include/FaceTracker/Tracker.h:42:10: fatal error: 'FaceTracker/CLM.h' file not found#include <FaceTracker/CLM.h>         ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@34"'FaceTracker/CLM.h' file not found-397352779#18446744073709551615#0#2(2@136"In file included from /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ciFaceTracker.cpp:1:-397352779#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@122"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/blocks/ciFaceTracker/ciFaceTracker.cpp0000000000000000^0#9#0#9#9#0#21"Clang LLVM 1.0 Notice--2@135"In file included from /Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ciFaceTracker.h:28:-397352779#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@120"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/blocks/ciFaceTracker/ciFaceTracker.h0000000000000000^27#9#27#9#824#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@132"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/blocks/FaceTracker/include/FaceTracker/Tracker.h0000000000000000^41#9#41#9#2506#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@131"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ciFaceTracker.cpp0000000000000000^3353"CompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/ciFaceTracker.o ../blocks/ciFaceTracker/ciFaceTracker.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    setenv LANG en_US.US-ASCII    "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-generated-files.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-own-target-headers.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-all-target-headers.hmap" -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-project-headers.hmap" -iquote../../../../../include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -iquote../../../../../blocks/OSC/src -iquote../../../../../blocks/QuickTime/include "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug/include" -I../../../../../boost "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources/i386" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources" "-F/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug" -include /var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch -MMD -MT dependencies -MF "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/ciFaceTracker.d" --serialize-diagnostics "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/ciFaceTracker.dia" -c "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ciFaceTracker.cpp" -o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/ciFaceTracker.o"36"9D97C5B6-601F-4B7A-BF3F-76831A807EF8-
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/ciFaceTracker.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/ciFaceTracker/ciFaceTracker.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/FaceMorph.build/Debug/FaceMorph.build/Objects-normal/i386/face_tracker.o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/src/exe/face_tracker.cc" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCpResource ../blocks/FaceTracker/.gitignore ./build/Debug/FaceMorph.app/Contents/Resources/.gitignore
+r0
+
+CCpResource ../blocks/FaceTracker/bin/.gitignore ./build/Debug/FaceMorph.app/Contents/Resources/.gitignore
+s397352754.671476
+e397352754.735700
+r1
+xCpResource
+x../blocks/FaceTracker/bin/.gitignore
+x./build/Debug/FaceMorph.app/Contents/Resources/.gitignore
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy ./build/Debug/FaceMorph.app/Contents/Resources/.gitignore6afbab321fafb741^3481c2321fafb741^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources/.gitignore000000000080d041^525"CpResource ../blocks/FaceTracker/bin/.gitignore ./build/Debug/FaceMorph.app/Contents/Resources/.gitignore    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/bin/.gitignore" "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources"36"D09B7C5A-8667-4562-B771-D8FC338A168D-
+
+CCpResource ../blocks/FaceTracker/license.md ./build/Debug/FaceMorph.app/Contents/Resources/license.md
+s397352754.672022
+e397352754.735580
+r1
+xCpResource
+x../blocks/FaceTracker/license.md
+x./build/Debug/FaceMorph.app/Contents/Resources/license.md
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy ./build/Debug/FaceMorph.app/Contents/Resources/license.md1e18ac321fafb741^677dc2321fafb741^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources/license.md000000000080d041^517"CpResource ../blocks/FaceTracker/license.md ./build/Debug/FaceMorph.app/Contents/Resources/license.md    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/license.md" "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources"36"78219D1A-EAFA-4B5D-950A-9FF343A83E28-
+
+CCpResource ../blocks/FaceTracker/model/face.con ./build/Debug/FaceMorph.app/Contents/Resources/face.con
+s397352754.672041
+e397352754.735573
+r1
+xCpResource
+x../blocks/FaceTracker/model/face.con
+x./build/Debug/FaceMorph.app/Contents/Resources/face.con
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy ./build/Debug/FaceMorph.app/Contents/Resources/face.conca1bac321fafb741^2d7bc2321fafb741^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources/face.con000000000080d041^523"CpResource ../blocks/FaceTracker/model/face.con ./build/Debug/FaceMorph.app/Contents/Resources/face.con    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/model/face.con" "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources"36"92F13FA4-CBF9-4F8B-8DCE-5471FE1D3098-
+
+CCpResource ../blocks/FaceTracker/model/face.tracker ./build/Debug/FaceMorph.app/Contents/Resources/face.tracker
+s397352754.673112
+e397352754.769493
+r1
+xCpResource
+x../blocks/FaceTracker/model/face.tracker
+x./build/Debug/FaceMorph.app/Contents/Resources/face.tracker
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy ./build/Debug/FaceMorph.app/Contents/Resources/face.tracker855dac321fafb741^48fec4321fafb741^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources/face.tracker000000000080d041^535"CpResource ../blocks/FaceTracker/model/face.tracker ./build/Debug/FaceMorph.app/Contents/Resources/face.tracker    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/model/face.tracker" "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources"36"7EC32479-EADA-4D87-B696-71969BE86B22-
+
+CCpResource ../blocks/FaceTracker/model/face.tri ./build/Debug/FaceMorph.app/Contents/Resources/face.tri
+s397352754.673512
+e397352754.735963
+r1
+xCpResource
+x../blocks/FaceTracker/model/face.tri
+x./build/Debug/FaceMorph.app/Contents/Resources/face.tri
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy ./build/Debug/FaceMorph.app/Contents/Resources/face.tri3a7aac321fafb741^5e83c2321fafb741^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources/face.tri000000000080d041^523"CpResource ../blocks/FaceTracker/model/face.tri ./build/Debug/FaceMorph.app/Contents/Resources/face.tri    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/model/face.tri" "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources"36"B73B79D3-2147-4AF4-A66A-9AAB5F4ED289-
+
+CCpResource ../blocks/FaceTracker/model/face2.tracker ./build/Debug/FaceMorph.app/Contents/Resources/face2.tracker
+s397352754.674753
+e397352754.770730
+r1
+xCpResource
+x../blocks/FaceTracker/model/face2.tracker
+x./build/Debug/FaceMorph.app/Contents/Resources/face2.tracker
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy ./build/Debug/FaceMorph.app/Contents/Resources/face2.trackere6caac321fafb741^274fc5321fafb741^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources/face2.tracker000000000080d041^538"CpResource ../blocks/FaceTracker/model/face2.tracker ./build/Debug/FaceMorph.app/Contents/Resources/face2.tracker    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/model/face2.tracker" "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources"36"D7E26B34-8DCC-444E-8A15-F3A3A6C6B03E-
+
+CCpResource ../blocks/FaceTracker/readme.md ./build/Debug/FaceMorph.app/Contents/Resources/readme.md
+s397352754.736893
+e397352754.766015
+r1
+xCpResource
+x../blocks/FaceTracker/readme.md
+x./build/Debug/FaceMorph.app/Contents/Resources/readme.md
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy ./build/Debug/FaceMorph.app/Contents/Resources/readme.md6cb4bc321fafb741^151ac4321fafb741^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources/readme.md0000000000000000^514"CpResource ../blocks/FaceTracker/readme.md ./build/Debug/FaceMorph.app/Contents/Resources/readme.md    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/FaceTracker/readme.md" "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources"36"05FAB2C3-E332-4C05-A061-128161B4E9F0-
+
+CCpResource ../blocks/ciFaceTracker/README.md ./build/Debug/FaceMorph.app/Contents/Resources/README.md
+s397352754.671455
+e397352754.735683
+r1
+xCpResource
+x../blocks/ciFaceTracker/README.md
+x./build/Debug/FaceMorph.app/Contents/Resources/README.md
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy ./build/Debug/FaceMorph.app/Contents/Resources/README.md11fcab321fafb741^6f7fc2321fafb741^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources/README.md000000000080d041^518"CpResource ../blocks/ciFaceTracker/README.md ./build/Debug/FaceMorph.app/Contents/Resources/README.md    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/README.md" "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources"36"8E49CC8E-F74F-49BD-848A-C1F8E0C901C7-
+
+CCpResource ../resources/CinderApp.icns ./build/Debug/FaceMorph.app/Contents/Resources/CinderApp.icns
+s397352754.671428
+e397352754.758496
+r1
+xCpResource
+x../resources/CinderApp.icns
+x./build/Debug/FaceMorph.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy ./build/Debug/FaceMorph.app/Contents/Resources/CinderApp.icnscafcab321fafb741^d786c2321fafb741^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources/CinderApp.icns000000000080d041^511"CpResource ../resources/CinderApp.icns ./build/Debug/FaceMorph.app/Contents/Resources/CinderApp.icns    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/../resources/CinderApp.icns" "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Resources"36"F04A2997-4B13-4D95-B6CA-25A82601D441-
+
+CCpResource ciFaceTracker/README.md ./build/Debug/FaceMorph.app/Contents/Resources/README.md
+r0
+
+CLd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/MacOS/FaceMorph" normal i386
+r0
+
+CProcessInfoPlistFile "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Info.plist" Info.plist
+s397352754.592444
+e397352754.663106
+r1
+xProcessInfoPlistFile
+x/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plistce16a4321fafb741^486dc2321fafb741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/Info.plist0000000000000000^489"ProcessInfoPlistFile ./build/Debug/FaceMorph.app/Contents/Info.plist Info.plist    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    builtin-infoPlistUtility Info.plist -genpkginfo "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app/Contents/Info.plist"36"5408FBAF-C7F7-4D05-A157-B218C06387A1-
+
+CProcessPCH++ /Users/hesamohadi/Library/Developer/Xcode/DerivedData/FaceMorph-eddtusrqpitkrmafqodighndfffs/Index/PrecompiledHeaders/FaceMorph_Prefix-grtwprmiuscyyxhiwnfaqrxvpizr_ast/FaceMorph_Prefix.pch.pth FaceMorph_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch.pth FaceMorph_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s397352754.780445
+e397352771.154119
+r1
+xProcessPCH++
+x/var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch.pth
+xFaceMorph_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile FaceMorph_Prefix.pchc7bdcd321fafb741^2e7627431fafb741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Applications/cinder%200.8.5/Me%20Code/Projects/FaceMorph/FaceMorph/xcode/FaceMorph_Prefix.pch0000000000000000^3264"ProcessPCH++ /var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch.pth FaceMorph_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode"    setenv LANG en_US.US-ASCII    "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot "/Applications/Developer/Xcode 4.5.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-generated-files.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-own-target-headers.hmap" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-all-target-headers.hmap" -iquote "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/FaceMorph-project-headers.hmap" -iquote../../../../../include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -iquote../../../../../blocks/OSC/src -iquote../../../../../blocks/QuickTime/include "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug/include" -I../../../../../boost "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources/i386" "-I/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/FaceMorph.build/Debug/FaceMorph.build/DerivedSources" "-F/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/build/Debug" --serialize-diagnostics /var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch.dia -c "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/FaceMorph_Prefix.pch" -o /var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/rh/tzbkgzc12lgdwcfsygpkbxfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/FaceMorph_Prefix-fywhduesmvheyncaiemdqnpkmjpr/FaceMorph_Prefix.pch.d36"EE4804E0-8C22-4B89-BFE6-CE6C167F406F-
+
+CTouch "/Applications/cinder 0.8.5/Me Code/Projects/FaceMorph/FaceMorph/xcode/./build/Debug/FaceMorph.app"
+r0
+
