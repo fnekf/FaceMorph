@@ -190,4 +190,5 @@ dependencies: \
   /Applications/cinder\ 0.8.5/Me\ Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/ExpressionClassifier.h \
   /Applications/cinder\ 0.8.5/Me\ Code/Projects/FaceMorph/FaceMorph/xcode/../blocks/ciFaceTracker/Expression.h \
   ../../../../../include/cinder/Capture.h \
-  ../../../../../include/cinder/gl/Texture.h
+  ../../../../../include/cinder/gl/Texture.h \
+  /Applications/cinder\ 0.8.5/Me\ Code/Projects/FaceMorph/FaceMorph/xcode/ThreadedFaceDetection.h

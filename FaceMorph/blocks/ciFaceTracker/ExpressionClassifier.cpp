@@ -14,7 +14,7 @@ ExpressionClassifier::ExpressionClassifier()
 }
 
 void ExpressionClassifier::save(string directory) const {
-    path tPath( directory );
+    fs::path tPath( directory );
     
     if( !exists( tPath ) ) {
         if( !create_directory( tPath ) ) {
@@ -34,7 +34,7 @@ void ExpressionClassifier::save(string directory) const {
 }
 
 void ExpressionClassifier::load(string directory) {
-    path tPath( directory );
+    fs::path tPath( directory );
     
     if( exists( tPath ) ) {
         if( is_directory( tPath ) ) {            

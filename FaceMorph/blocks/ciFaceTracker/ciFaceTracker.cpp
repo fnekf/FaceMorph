@@ -61,11 +61,17 @@ void ciFaceTracker::setup() {
 	wSize2[1] = 9;
 	wSize2[2] = 7;
     
-    path tBasePath = path( ci::app::AppBasic::getResourcePath() );
+    fs::path tBasePath = ci::app::AppBasic::getResourcePath() ;
     
-    path tFtPath  = tBasePath / "face2.tracker";
-    path tTriPath = tBasePath / "face.tri";
-    path tConPath = tBasePath / "face.con";
+    if(!exists(fs::path (tBasePath / "face2.tracker"))||
+       !exists(fs::path (tBasePath / "face.tri")) ||
+       !exists(fs::path (tBasePath / "face.con"))) {
+		console() << "Make sure you've placed the files face2.tracker, face.tri and face.con in the data/model/ folder.";
+	}
+    
+    fs::path tFtPath  = tBasePath / "face2.tracker";
+    fs::path tTriPath = tBasePath / "face.tri";
+    fs::path tConPath = tBasePath / "face.con";
 	
 	tracker.Load( tFtPath.string().c_str() );
 	tri = IO::LoadTri( tTriPath.string().c_str() );
@@ -227,6 +233,7 @@ TriMesh ciFaceTracker::getMesh(vector<Vec3f> points) const {
 		int n = size();
 		for(int i = 0; i < n; i++) {
             Vec3f tPt = points[i];
+            
 			mesh.appendVertex( points[i] );
 			mesh.appendTexCoord( getImagePoint(i).xy() );
 		}
