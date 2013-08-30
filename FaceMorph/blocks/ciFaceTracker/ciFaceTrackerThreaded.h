@@ -15,8 +15,10 @@ public:
 	ciFaceTrackerThreaded()
 	:needsUpdatingBack(false)
 	,needsUpdatingFront(false)
-	,meanObjectPointsReady(false) {
-	}
+	,meanObjectPointsReady(false)
+    {
+        
+    }
 	~ciFaceTrackerThreaded() {
 		stopThread(false);
         ci::sleep(500);

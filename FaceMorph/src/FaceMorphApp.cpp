@@ -1,11 +1,13 @@
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
-#include "ciFaceTrackerThreaded.h"
 #include "cinder/Capture.h"
 #include "cinder/gl/Texture.h"
 #include "cinder/Surface.h"
 #include "cinder/Utilities.h"
-#include "ThreadedFaceDetection.h"
+#include "cinder/params/Params.h"
+
+#include "ThreadedFaceDetector.h"
+#include "ThreadedFaceTracker.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -20,8 +22,11 @@ class FaceMorphApp : public AppNative {
     
     Capture                     mCapture;
     Surface                     mCamSurface;
-    ciFaceTrackerThreaded       mFaceTracker;
-    ThreadedFaceDetection       mFaceDetector;
+    ThreadedFaceTracker         mFaceTracker;
+    ThreadedFaceDetector        mFaceDetector;
+    
+    params::InterfaceGl         mControlBoard;
+    bool                        mShowFaceTracker, mShowFaceDetector;
 };
 
 void FaceMorphApp::setup()
@@ -30,6 +35,14 @@ void FaceMorphApp::setup()
     mFaceDetector.start();
     mCapture= Capture(640,480);
     mCapture.start();
+    
+    mShowFaceDetector=false;
+    mShowFaceTracker=false;
+    mControlBoard= params::InterfaceGl ("Controls", Vec2i(200,400));
+    mControlBoard.addParam("Show FaceTracker", &mShowFaceTracker);
+    mControlBoard.addParam("Show FaceDetector", &mShowFaceDetector);
+    mControlBoard.addParam("FaceTracker's Head Enlargement Value", &mFaceTracker.mEnlargementValue, "min=0.0 max=1.0 step=0.05");
+    mControlBoard.addParam("FaceDetector's Head Enlargement Value", &mFaceDetector.mEnlargementValue, "min=0.0 max=1.0 step=0.05");
     
 }
 
@@ -60,7 +73,7 @@ void FaceMorphApp::draw()
         gl::Texture::Format format;
         format.setTargetRect();
         gl::Texture tex= gl::Texture(mCamSurface, format);
-         gl::draw(tex,getWindowBounds());
+        gl::draw(tex,getWindowBounds());
         
         //gl::draw(mFaceTracker.getImageMesh());
         
@@ -73,14 +86,24 @@ void FaceMorphApp::draw()
         tex.unbind();
         //gl::draw(mFaceTracker.getImageFeature(ciFaceTracker::ALL_FEATURES));
     }
+    
     gl::setMatricesWindow(getWindowWidth(), getWindowHeight());
     
-    gl::color( ColorAf(CM_HSV, .1, 1.0, 1.0, 0.2));
-    mFaceDetector.drawFaces(false, true);
-    gl::color( ColorAf(CM_HSV, .4, 1.0, 1.0, 0.2));
-    mFaceDetector.drawHeads(false, true);
-
+    if(mShowFaceDetector){
+        gl::color( ColorAf(CM_HSV, .1, 1.0, 1.0, 0.2));
+        mFaceDetector.drawFaces(false, true);
+        gl::color( ColorAf(CM_HSV, .4, 1.0, 1.0, 0.2));
+        mFaceDetector.drawHeads(false, true);
+    }
     
+    if(mShowFaceTracker){
+        gl::color( ColorAf(CM_HSV, .1, 1.0, 1.0, 0.2));
+        mFaceTracker.drawFace(true, true);
+        gl::color( ColorAf(CM_HSV, .4, 1.0, 1.0, 0.2));
+        mFaceTracker.drawHead(true, true);
+    }
+
+    mControlBoard.draw();
 }
 
 CINDER_APP_NATIVE( FaceMorphApp, RendererGl )

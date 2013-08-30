@@ -123,7 +123,8 @@
 		D00F1DAE17AF1EBD006F9DE9 /* PDM.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PDM.cc; sourceTree = "<group>"; };
 		D00F1DAF17AF1EBD006F9DE9 /* Tracker.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tracker.cc; sourceTree = "<group>"; };
 		D00F1DC617AF2275006F9DE9 /* mCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mCV.h; sourceTree = "<group>"; };
-		D0F3C34117C82D50003429CD /* ThreadedFaceDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadedFaceDetection.h; sourceTree = "<group>"; };
+		D0267BEF17CEC45300213AA0 /* ThreadedFaceTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadedFaceTracker.h; sourceTree = "<group>"; };
+		D0F3C34117C82D50003429CD /* ThreadedFaceDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadedFaceDetector.h; sourceTree = "<group>"; };
 		D385E104942A45059C95674A /* IpEndpointName.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = IpEndpointName.cpp; path = ../../../../../blocks/OSC/src/ip/IpEndpointName.cpp; sourceTree = "<group>"; };
 		D3B20D6A9BF4428EAA8C14A4 /* PacketListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PacketListener.h; path = ../../../../../blocks/OSC/src/ip/PacketListener.h; sourceTree = "<group>"; };
 		DA3487B8C53C48CB8983AC17 /* OscTypes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = OscTypes.cpp; path = ../../../../../blocks/OSC/src/osc/OscTypes.cpp; sourceTree = "<group>"; };
@@ -247,7 +248,8 @@
 			isa = PBXGroup;
 			children = (
 				DB644C6B96254A888E458D2C /* Resources.h */,
-				D0F3C34117C82D50003429CD /* ThreadedFaceDetection.h */,
+				D0F3C34117C82D50003429CD /* ThreadedFaceDetector.h */,
+				D0267BEF17CEC45300213AA0 /* ThreadedFaceTracker.h */,
 				95F367896C3E43C9AB308AAA /* FaceMorph_Prefix.pch */,
 			);
 			name = Headers;
