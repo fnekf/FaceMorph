@@ -1,7 +1,7 @@
 FaceMorph
 =========
 
-An Installation with Arash Akbari for Tadaex2013
+An Installation with Arash Akbari
 
 
 ReadMe
